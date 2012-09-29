@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		
-		<title>Etsy Prezzzo</title>
+		<title>API 101</title>
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -37,112 +37,64 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h3>This is the</h3>
-					<h1>Etsy Presentation</h1>
-					<img src="http://payload.cargocollective.com/1/1/53163/722616/Small_Etsy_Logo.jpg"></img>
+					<h3>WHAT IS</h3>
+					<h1>AN API?</h1>
 					<br><br>
 					<p>abe@etsy.com</p>
 					<p>@abestanway</p>
 				</section>
 				
 				<section>
-					<h1>WHAT'S ETSY?</h1>
-					<br>
-					<br>
-					<br>
-					<p>Only like the world's largest<br> marketplace for handmade goods.</p>
+					<h3 class="orange">Web Site</h3>
+                    <img src="etsy"></img>
 				</section>
 
 				<section>
-					<img src="http://www.allweirdthings.com/wp-content/uploads/2008/02/boygluehand.jpg"></img>
-					<img src="http://keetsa.com/blog/wp-content/uploads/2008/02/handmade-cat-puppet.jpg"></img>
+				    <h1>Data</h1>
+				    <img src="http://images3.wikia.nocookie.net/__cb20120205054558/memoryalpha/en/images/1/13/Data,_2364.jpg"></img>
 				</section>
 				
 				<section data-state="blackout">
-					<h3>1.4 billion page views</h3>
-					<h3 class="fragment">$76 million in sales</h3>
-					<h3 class="fragment">850 thousand users</h3>
+                    <h2>Web site == Pretty Data</h2>
+				    <img src="prettydata.jpeg"></img>
+				</section>
+
+				<section data-state="blackout">
+					<h3 class="orange">Rampant Consumerism</h3>
+					<img src="http://www.skinnytwinkie.com/wp-content/uploads/2012/06/mcdonalds_stop_obesity.jpg"></img>
+				    <br><br>
+				    <h4 class="fragment">Website != Consumer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; App == Consumer</h4>
+					<h5 class="fragment orange">(Generally)</h5>
+				</section>
+
+				<section>
+				    <h2>YOUR APP EATS DATA</h2>
+				    <img src="http://wwwi.my1liner.com/Pictures/27-01-2007.jpg"></img>
+				    <br><br>
+				    <h4 class="fragment orange">DEFINITION: API == A TASTY DATA MEAL FOR YOUR APP</h4>
+				</section>
+
+				<section data-state="blackout">
+					<h2>Playtime</h2>
 					<br><br>
-					<h4 class="fragment orange">...in August<h4>
-				</section>
-
-				<section>
-					<h1>MAD DATA YO</h1>
-					<img src="http://girlfriendhypothesis.files.wordpress.com/2012/03/blingy-guy.jpg"></img>
-				</section>
-				
-				<section data-state="blackout">
-				    <br><br><br>
-					<h3 style="font-size: 6em;">OUR API IS BALLER</h3>
-				</section>
-
-				<section>
-				    <h4>etsy.com/developers/documentation</h4>
-                    <img src="usualsuspects.jpg"></img>
-				</section>
-
-				<section data-state="blackout">
-					<h2>Most popular tags</h2>
-					<h2 class="fragment">Category based search</h2>
-					<h3 class="fragment">Location based item search</h3>
-					<h2 class="fragment">Semantic color search</h2>
+                    <pre class="fragment"><code contenteditable>openapi.etsy.com/v2/shops/7343723</code></pre>
+                    <pre class="fragment"><code contenteditable>openapi.etsy.com/v2/shops/7343723/listings/active</code></pre>
+                    <br><br><br>
+                    <h4>etsy.com/shop/AmandaPlayingHooky</h4>
 				</section>
 				
 				<section>
-					<h2>No OAuth</h2>
-					<img class="fragment" src="http://images5.fanpop.com/image/photos/31200000/Ain-t-Nobody-Got-Time-Fo-Dat-sweet-brown-31241125-480-330.jpg"></img>
-					<br><br>
-					<h5 class="fragment orange">(unless you want write access to a seller's shop)</h5>
-					<h5 class="fragment orange">You DO need an API Key though</h5>
-				</section>
-
-				<section data-state="alert">
-					<h2 style="color:black;">
-					    <img class="fragment" style="top: -10px; position: relative;" src="http://cdn.dealbreaker.com/uploads/2010/06/animated-siren-gif-animated-siren-gif-animated-siren-gif-drudge-report.gif"</img>
-					        Realtime Firehose
-					    <img class="fragment" style="top: -10px; position: relative;" src="http://cdn.dealbreaker.com/uploads/2010/06/animated-siren-gif-animated-siren-gif-animated-siren-gif-drudge-report.gif"</img> 					
-					 </h2>
-					<img class="fragment" src="http://www.marketinginprogress.com/wp-content/uploads/2009/11/drinking-from-a-firehose-300x198.jpg"></img>
-					<br><br><br>
-					<h4>hub.etsy.com</h4>
-					<h4>All listings / By country</h4>
+					<h4>PROTIP:</h4>
+					<h4 class="orange">USE CHROME JSONVIEW</h4>
+					<img src="pretty"></img> > <img src="ugly"></img>
 				</section>
 				
 				<section data-state="blackout">
 				    <img style="margin-top: -20px;" src="astanway.jpeg"></img>
 				    <br><br>
-					<h4 class="orange">github.com/astanway/handmadetrix</h4>
+					<h4 class="orange">github.com/astanway</h4>
 					<h4>@abestanway | abe@etsy.com</h4>
 				</section>
-
-				<section data-state="blackout">
-					<h1 class="orange">GO MAKE THINGS</h1>
-					<img src="http://www.mrxstitch.com/wp-content/uploads/2011/12/big_etsy_logo2.jpg"></img>
-				</section>
-
-
-				
-                <!-- <section>
-                    <h2>Pretty Code</h2>
-                    <pre><code contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-    
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) ) {
-        node.className += ' roll';
-      }
-    };
-  }
-}
-                    </code></pre>
-                    <p>Courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-                </section> -->
-
 			</div>
 
 			<!-- The navigational controls UI -->
