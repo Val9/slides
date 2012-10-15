@@ -5,5 +5,5 @@ I use [picnic](https://github.com/astanway/picnic) and [reveal](https://github.c
 
 Talks:
 * Etsy API presentation, hackNY Fall 2012
-* API 101 session, hackNY Fall 2012
-* Panelist, Business of APIs Conference, Fall 2012
+* "API 101" - mentor session, hackNY Fall 2012
+* "Your API is a Product" - Business of APIs Conference, Fall 2012

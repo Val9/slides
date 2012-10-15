@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+		<meta charset="utf-8"/>
+		
+		<title>YOUR API IS A PRODUCT</title>
+
+		<meta content="yes" name="apple-mobile-web-app-capable"/>
+		<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+		
+		<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+		
+		<link href="css/reveal.css" rel="stylesheet"/>
+		<link href="css/theme/default.css" id="theme" rel="stylesheet"/>
+
+		<!-- For syntax highlighting -->
+		<link href="lib/css/zenburn.css" rel="stylesheet"/>
+
+		<script>
+			// If the query includes 'print-pdf' we'll use the PDF print sheet
+            // document.write( '&lt;link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print"&gt;' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body>
+		
+		<div class="reveal">
+
+			<!-- Used to fade in a background when a specific slide state is reached -->
+			<div class="state-background"></div>
+			
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h3>YOUR API IS</h3>
+					<h1>A PRODUCT</h1>
+					<br/><br/>
+					<p>abe@etsy.com</p>
+					<p>@abestanway</p>
+				</section>
+				
+				<section>
+					<h3 class="orange">WHAT'S A PRODUCT?</h3>
+                    <img src="images/rootbeer.png"/>
+				    <img src="images/YellowRubberDuck.jpg"/>
+				    <img src="images/oralb-pulsar-pro-health-toothbrush"/>
+				</section>
+
+				<section>
+				    <h1>DEFINITION:</h1>
+				    <h3 class="fragment">
+				        A product is something you use or consume.
+				    </h3>
+				</section>
+				
+				<section data-state="blackout">
+                    <h2>YOUR API IS A PRODUCT.</h2>
+                    <br/>
+				    <h3 class="fragment">
+				        People <span class="orange">USE</span> and <span class="orange">consume</span> it.
+				    </h3>
+				</section>
+
+				<section data-state="blackout">
+					<h3 class="orange">Who makes the product?</h3>
+					<img src="images/Kruger_Franz-ZZZ-Portrait_of_Prince_Andrei_Obolensky.jpg"/>
+					<img src="images/stieler002.jpg"/>
+				</section>
+
+				<section>
+					<h3 class="orange">Who makes the API?</h3>
+				    <img src="images/milton-office-space1.jpg"/>
+				</section>
+
+				<section data-state="blackout">
+					<h4 class="orange">YOUR API IS A PRODUCT.</h4>
+				    <h4 class="fragment">
+				        TREAT IT LIKE A PRODUCT.
+				    </h4>
+				    <img src="images/milton-office-space1.jpg"/>
+				</section>
+				
+				<section data-state="blackout">
+					<h3 class="orange">DESIGN IS IMPORTANT.</h3>
+				    <h4 class="fragment">
+				        (This isn't news)
+				    </h4>
+				    <br/>
+				    <br/>
+				    <br/>
+				    <h3 class="fragment">DESIGN IS USABILITY.</h3>
+				    <h3 class="fragment">MAKE YOUR API EASY TO USE.</h3>
+				    <h3 class="fragment orange">THROW A DESIGNER ON IT.</h3>
+				</section>
+
+				<section data-state="blackout">
+					<h4 class="orange">DEFINITION:</h4>
+					<h4>EASY TO USE MEANS OPTIONAL DOCUMENTATION</h4>
+					<br/><br/>
+					<img class="fragment" src="images/3rcolz.jpg"/>
+				</section>
+				
+				<section data-state="blackout">
+					<h3 class="orange">FIGHT FOR YOUR USERS.</h3>
+					<h4 class="fragment">GIVE THEM ACCESS TO SWEET-ASS STUFF.</h4>
+					<img class="fragment" src="images/dinosaurswithlasers2.jpg"/>
+				</section>
+				
+				<section data-state="blackout">
+				    <img src="astanway.jpeg" style="margin-top: -20px;"/>
+				    <br/><br/>
+					<h4 class="orange">github.com/astanway</h4>
+					<h4>@abestanway | abe@etsy.com</h4>
+				</section>
+			</div>
+
+			<!-- The navigational controls UI -->
+			<aside class="controls">
+				<a class="left" href="#">◄</a>
+				<a class="right" href="#">►</a>
+				<a class="up" href="#">▲</a>
+				<a class="down" href="#">▼</a>
+			</aside>
+
+			<!-- Presentation progress bar -->
+			<div class="progress"><span></span></div>
+			
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+			
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				
+				theme: Reveal.getQueryHash().theme || 'default', // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/linear(2d)
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/highlight.js', async: true, callback: function() { window.hljs.initHighlightingOnLoad(); } },
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'lib/js/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/js/data-markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/socket.io/socket.io.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+					{ src: 'plugin/speakernotes/client.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+				]
+			});
+			
+		</script>
+
+	
+
+</body></html>
