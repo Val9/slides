@@ -71,6 +71,13 @@ body {
 	text-shadow: none; 
 }
 
+.plain {
+    margin: 0px !important;
+    background: 0px !important;
+    -webkit-box-shadow: 0px 0px 0px !important;
+    box-shadow: 0px 0px 0px !important;
+}
+
 /*********************************************
  * HEADERS
  *********************************************/
