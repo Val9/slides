@@ -7,3 +7,4 @@ Talks:
 * Etsy API presentation, hackNY Fall 2012
 * "API 101" - mentor session, hackNY Fall 2012
 * "Your API is a Product" - Business of APIs Conference, Fall 2012
+* "Zen and the Art of Writing Commit Logs" - IgniteNYC 15
